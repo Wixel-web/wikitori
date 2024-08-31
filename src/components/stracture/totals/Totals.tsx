@@ -34,7 +34,7 @@ const Totals = () => {
           </div>
           <span className="w-[1.5px] bg-gray-300/40 h-[140px] hidden lg:block"></span>
           <div className="flex  flex-row gap-[25px] sm:gap-[40px] lg:gap-[60px]">
-            <Total from={0} to={20000} title="ویرایش در ویکی پیدا" />
+            <Total from={0} to={20000} title="ویرایش در ویکی پدیا" />
             <span className="w-[1.5px] bg-gray-300/40 h-[140px]"></span>
             <Total from={0} to={170} title="کل پروژه ها" />
           </div>
