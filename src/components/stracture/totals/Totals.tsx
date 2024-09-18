@@ -17,13 +17,9 @@ const Totals = () => {
           <span className="font-semibold text-xl sm:text-2xl xl:text-3xl text-[#272657]">
             با
           </span>
-          <WikiUnderLine
-            className="text-[#3A65C8] font-semibold text-xl sm:text-2xl xl:text-3xl"
-            title="ویکیطوری ,"
-            size="w-[110px] h-[10px]"
-          />
+          <h1  className="text-[#3A65C8] font-semibold text-xl sm:text-2xl xl:text-3xl">ویکی طوری</h1>
           <span className="font-semibold text-xl sm:text-2xl xl:text-3xl text-[#272657]">
-            صفحه اول گوگل از ان شماست
+            صفحه اول گوگل از آن شماست
           </span>
         </h1>
         <div className="flex lg:flex-row flex-col gap-[25px] sm:gap-[40px] lg:gap-[60px] ">

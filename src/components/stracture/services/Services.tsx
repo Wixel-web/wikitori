@@ -6,7 +6,7 @@ import Image from "next/image";
 const servicesInfo = [
   {
     image: "/book-square.svg",
-    content: "ایجاد و ویرایش مقاالت در ویکی پدیا فارسی، انگلیسی و عربی",
+    content: "ایجاد و ویرایش مقاله در ویکی پدیا فارسی، انگلیسی و عربی",
   },
   {
     image: "/Dart.svg",
@@ -22,19 +22,19 @@ const servicesInfo = [
   },
   {
     image: "/Verified.svg",
-    content: "گرفتن تیک آبی اینستاگرام با ایجاد مقاله در ویکی پدیا",
+    content: "گرفتن تیک آبی اینستاگرام با ایجاد مقاله در ویکیپدیا",
   },
   {
     image: "/link.svg",
-    content: "ایجاد و درج بک لینک در مقالات ویکی پدیا",
+    content: "ایجاد و درج بک لینک در مقاله ویکی پدیا",
   },
   {
     image: "/benchmark.png",
-    content:"مقايسه كسب و كارهاي هم رديف",
+    content:"مقايسه كسب و كارهای هم رديف",
   },
   {
     image: "/research.png",
-    content: "انجام تحقيقات علمي و مستند",
+    content: "انجام تحقيقات علمی و مستند",
   },
 ];
 const Services = () => {
@@ -48,7 +48,7 @@ const Services = () => {
         height={500}
         />
       <div className="flex flex-col items-center justify-center max-w-[1440px] mx-auto  gap-[80px] w-full mt-[-500px] xl:mt-[-500px]">
-        <h1 className="text-2xl max-w-[88%] leading-9 text-center md:text-3xl lg:text-4xl font-semibold text-white">با خدمات و پلتفرم های ویکیطوری آشنا شوید</h1>
+        <h1 className="text-2xl max-w-[88%] leading-9 text-center md:text-3xl lg:text-4xl font-semibold text-white">با خدمات و پلتفرم های ویکی طوری آشنا شوید</h1>
         <div className=" grid grid-cols-2 lg:flex flex-wrap items-center justify-center gap-2 md:gap-7">
           {servicesInfo.map((item, index) => (
             <Service key={index} image={item.image} content={item.content} />

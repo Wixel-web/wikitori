@@ -16,14 +16,14 @@ const WikipediaEncyclopedia = () => {
       <div className="flex flex-col z-30 ">
         <div className=" absolute top-[180px] text-center mx-auto w-full flex items-center justify-center">
           <h1 className="text-3xl md:text-5xl xl:text-6xl font-bold text-white">
-            آشنایی با دانشنامه ویکیپدیا
+            آشنایی با دانشنامه ویکی پدیا
           </h1>
         </div>
         <div className="mt-[295px] lg:mt-[350px] xl:mt-[320px] px-5 md:px-10 ">
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-4 ">
               <h1 className="text-neutral-900 text-xl md:text-2xl  font-bold leading-8 tracking-wide">
-                اشنایی با دانشنامه ویکیپدیا
+                آشنایی با دانشنامه ویکیپدیا
               </h1>
               <p className="text-[#161619b0] text-[12px] sm:text-[14px] md:text-[15px] lg:text-[17px] xl:text-[18px] leading-6 lg:leading-8 xl:leading-9 tracking-wide">
                 ویکی‌پدیا دانشنامه‌ای است همگانی و آزاد؛ بدین معنی که همه
