@@ -17,6 +17,7 @@ const MainProducts = () => {
               src={clinicImage}
               alt="کلینیک"
               width={200}
+              priority
               height={360}
               className=" h-full w-full hidden md:block"
             />
@@ -25,6 +26,7 @@ const MainProducts = () => {
               alt="کلینیک"
               width={200}
               height={360}
+              priority
               className=" h-full w-full block md:hidden max-h-[250px] min-h-[250px] md:max-h-full rounded-t-[25px]"
             />
           </div>
@@ -79,6 +81,7 @@ const MainProducts = () => {
               alt="سرنخ"
               width={500}
               height={360}
+              priority
               className="w-full h-full hidden md:block "
             />
             <Image
@@ -86,6 +89,7 @@ const MainProducts = () => {
               alt="سرنخ"
               width={500}
               height={360}
+              priority
               className="w-full h-full max-h-[250px] min-h-[250px] md:max-h-full block md:hidden rounded-t-[25px] "
             />
           </div>
@@ -118,6 +122,7 @@ const MainProducts = () => {
               alt="جوانه"
               width={500}
               height={360}
+              priority
               className="w-full h-full hidden md:block"
             />
             <Image
@@ -125,6 +130,7 @@ const MainProducts = () => {
               alt="جوانه"
               width={500}
               height={360}
+              priority
               className="w-full h-full max-h-[250px]  object-cover md:max-h-full block md:hidden rounded-t-[25px]"
             />
           </div>

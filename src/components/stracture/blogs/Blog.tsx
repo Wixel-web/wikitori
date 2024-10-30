@@ -18,6 +18,7 @@ const Blog: React.FC<blogProps> = ({
           alt="title"
           width={340}
           height={280}
+          priority
           className="w-full h-[245px] md:h-[300px] xl:h-[340px]"
         />
         <div className="flex flex-col mt-[-10px] gap-3 px-4 justify-center">

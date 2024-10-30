@@ -11,6 +11,7 @@ const WikipediaEncyclopedia = () => {
         width={1000}
         height={1000}
         alt="herobg"
+        priority
         className="w-full object-cover h-[325px] lg:h-[350px] xl:h-[370px] z-0 absolute  top-0"
       />
       <div className="flex flex-col z-30 ">
